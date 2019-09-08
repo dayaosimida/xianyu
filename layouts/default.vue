@@ -1,21 +1,21 @@
 <template>
   <div>
     <!-- 头部组件 -->
-    <header />
+    <home-header />
    <!-- 内容占位组件 代替了坑 -->
     <nuxt />
     <!-- 尾部组件 -->
-    <footer />
+    <Footer />
   </div>
 </template>
 <script>
-import header from '@/compinents/header'
-import footer from '@/compinents/footer'
+import HomeHeader from '@/components/header.vue'
+import Footer from '@/components/footer.vue'
 export default {
   // 注册组件
   components:{
-    header,
-    footer
+    HomeHeader,
+    Footer
   }
 }
 </script>
